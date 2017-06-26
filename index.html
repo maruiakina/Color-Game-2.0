@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Color Game 2.0</title>
+<link rel="stylesheet" href="color.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="header">
+		<h1>The Great
+		<br>
+		<span id="colorDisplay">RGB</span>
+		<br>
+		Color Guessing Game</h1>
+	</div>
+	
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+	</div>
+	
+	<div id="choice">
+		<button class="code default">RGB</button>
+		<button class="code">HEX</button>
+	</div>
+	
+	<div id="content">
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+	</div>
+	
+	<div class="footer">
+		<p>2.0 &copy; Create by Cassie W.</p>
+	</div>
+	
+	<script type="text/javascript" src="color.js"></script>
+</body>
+</html>

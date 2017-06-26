@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #232323;
+	margin: 0;
+	color: #fff;
+	font-family: Avenir;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+	font-size: inherit;
+	font-weight: 700;
+}
+
+#stripe {
+	text-align: center;
+	background: #fff;
+	height: 30px;
+	color: #000000;
+}
+
+.mode, #reset {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+.selected {
+	background: steelblue;
+	color: #fff;
+}
+
+#stripe button:hover {
+	color: #fff;
+	background-color: steelblue;
+}
+
+#choice {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.code {
+	color: #ffffff;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 2em;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	padding: 0 50px;
+	border-left: 5px solid rgba(0, 0, 0, 0);
+} 
+
+.default {
+	border-left: 5px solid #fff;
+}
+
+.code:hover {
+	border-left: 5px solid #fff;
+}
+
+#content {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.squares {
+	background-color: white;
+	width: 30%;
+	height: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+.footer {
+	color: #D9D9D9;
+	max-width: 100%;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30%;
+	text-transform: uppercase;
+	margin-top: 200px;
+}
